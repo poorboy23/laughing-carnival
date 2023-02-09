@@ -6,7 +6,7 @@
 
 <head>
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="{% static 'main.css' %}">
+    <!-- <link rel="stylesheet" href="{% static 'main.css' %}"> -->
 
 <body>
     <div class="App">
@@ -18,6 +18,10 @@
             <p class="small">
                 Edit <code>hello_world/templates/index.html</code> and see changes live!
             </p>
+            <form action="get">
+                <input type="text" name="fullnanme" id="fname">
+                <input type="button" value="submit">
+            </form>
         </header>
     </div>
 </body>
